@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbc0e765-8891-4ebf-a5ae-cba576b6a2af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c14-协程与通道/11-限制同时处理的请求数/max_tasks.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c14-协程与通道/13-在多核心上并行计算/cal.go" afterDir="false" />
+    <list default="true" id="acfe92e8-4440-4400-8e3e-e7c48785a3eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/c14-协程与通道/14.14 并行化大量数据的计算/cal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c14-协程与通道/13-在多核心上并行计算/cal.go" beforeDir="false" afterPath="$PROJECT_DIR$/c14-协程与通道/13-在多核心上并行计算/cal.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +19,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/.gvm/gos/go1.14" />
+  <component name="GOROOT" url="file://C:/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,5 +66,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
