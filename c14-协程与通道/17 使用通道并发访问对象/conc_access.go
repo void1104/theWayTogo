@@ -48,6 +48,9 @@ func (p *Person) SetSalary(sal float64) {
 }
 
 // Retrieve salary
+/**
+序列化打印工资
+*/
 func (p *Person) Salary() float64 {
 	fChan := make(chan float64)
 	p.chF <- func() {

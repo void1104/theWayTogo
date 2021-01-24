@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfe92e8-4440-4400-8e3e-e7c48785a3eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/1 tcp服务器/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/1 tcp服务器/dial.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/1 tcp服务器/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/1 tcp服务器/socket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/2 一个简单的web服务器/webserver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/3 访问并读取页面数据/head.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/3 访问并读取页面数据/http_fetch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/3 访问并读取页面数据/status.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/5 确保网页应用健壮/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/8 精巧的多功能网页服务器/webserver.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c14-协程与通道/17 使用通道并发访问对象/conc_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/c14-协程与通道/17 使用通道并发访问对象/conc_access.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +53,54 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build conc_access.go">
-    <configuration name="go build conc_access.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build server.go">
+    <configuration name="go build http_fetch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TheWayToGo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/c14-协程与通道/17 使用通道并发访问对象/conc_access.go" />
+      <filePath value="$PROJECT_DIR$/c15-网络，模板与网页应用/3 访问并读取页面数据/http_fetch.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build max_tasks.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="theWayTogo" />
+    <configuration name="go build poll_url.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TheWayToGo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/c14-协程与通道/11-限制同时处理的请求数/max_tasks.go" />
+      <filePath value="$PROJECT_DIR$/c15-网络，模板与网页应用/3 访问并读取页面数据/poll_url.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TheWayToGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/c15-网络，模板与网页应用/5 确保网页应用健壮/server.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build socket.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TheWayToGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/c15-网络，模板与网页应用/1 tcp服务器/socket.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build webserver.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TheWayToGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/c15-网络，模板与网页应用/2 一个简单的web服务器/webserver.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build conc_access.go" />
-        <item itemvalue="Go Build.go build max_tasks.go" />
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build http_fetch.go" />
+        <item itemvalue="Go Build.go build poll_url.go" />
+        <item itemvalue="Go Build.go build webserver.go" />
+        <item itemvalue="Go Build.go build socket.go" />
       </list>
     </recent_temporary>
   </component>
