@@ -13,6 +13,8 @@ import (
 )
 
 // hello world, the web server
+// 只要实现了http.Handler接口，就可以做服务器处理器
+
 /**
 包 expvar 可以创建（Int，Float 和 String 类型）变量，并将它们发布为公共变量。
 它会在 HTTP URL /debug/vars 上以 JSON 格式公布。通常它被用于服务器操作计数。
@@ -91,6 +93,43 @@ func ChanCreate() Chan {
 		}
 	}(c)
 	return c
+}
+
+func (ch Chan) ServeHTTP(w http.ResponseWriter, req *http.Request) {
+	io.WriteString(w, fmt.Sprintf("channel send #%d\n", <-ch))
+}
+
+// exec a program, redirecting output
+/**
+os.Pipe()返回一对相关联的File,从r读取数据，返回已读取的字节数来自于w的
+写入。函数返回这两个文件和错误，如果有的话：
+ */
+func DataServer(rw http.ResponseWriter, req *http.Request) {
+	rw.Header().Set("Content-Type", "text/plain; charset=utf-8")
+	r, w, err := os.Pipe()
+	if err != nil {
+		fmt.Fprintf(rw, "pipe: %s\n", err)
+		return
+	}
+
+	p, err := os.StartProcess("/bin/date", []string{"date"}, &os.ProcAttr{Files: []*os.File{nil, w, w}})
+	defer r.Close()
+	w.Close()
+	if err != nil {
+		fmt.Fprintf(rw, "fork/exec: %s\n", err)
+		return
+	}
+	defer p.Release()
+	io.Copy(rw, r)
+	wait, err := p.Wait()
+	if err != nil {
+		fmt.Fprintf(rw, "wait: %s\n", err)
+		return
+	}
+	if !wait.Exited() {
+		fmt.Fprintf(rw, "date: %v\n", wait)
+		return
+	}
 }
 
 // This makes Counter satisfy the expvar.Var interface, so we can export
