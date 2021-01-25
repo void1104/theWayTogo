@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfe92e8-4440-4400-8e3e-e7c48785a3eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/11 与websocket通信/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/9 用rpc实现远程过程调用/rpc_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/9 用rpc实现远程过程调用/rpc_object/rpc_object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/9 用rpc实现远程过程调用/rpc_server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c15-网络，模板与网页应用/8 精巧的多功能网页服务器/webserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/8 精巧的多功能网页服务器/webserver.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +21,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/.gvm/gos/go1.14" />
+  <component name="GOROOT" url="file://C:/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,7 +46,6 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
