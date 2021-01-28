@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfe92e8-4440-4400-8e3e-e7c48785a3eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/11 与websocket通信/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/9 用rpc实现远程过程调用/rpc_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/9 用rpc实现远程过程调用/rpc_object/rpc_object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/9 用rpc实现远程过程调用/rpc_server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c15-网络，模板与网页应用/11 与websocket通信/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/11 与websocket通信/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c15-网络，模板与网页应用/8 精巧的多功能网页服务器/webserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/c15-网络，模板与网页应用/8 精巧的多功能网页服务器/webserver.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
