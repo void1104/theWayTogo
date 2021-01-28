@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	// 如何打开一个文件并读取：
+	// (1) 如何打开一个文件并读取：
 	fmt.Println(os.Getwd()) // 获取当前路径
 	file, err := os.Open("./c18 出于性能考虑的实用代码片段/7 文件/pjx.txt")
 	if err != nil {
@@ -24,5 +24,5 @@ func main() {
 		}
 		fmt.Printf("The input was %s", str)
 	}
-	// 如何通过一个切片读写文件：
+	// (2) 如何通过一个切片读写文件：
 }
